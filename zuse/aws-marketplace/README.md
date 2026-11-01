@@ -39,7 +39,7 @@ faster (83.6 %).
 | `choice` | one option of up to 255 | `{"name": "description"}` | `choice`, `confidence`, `probabilities` |
 | `score` | a position on an ordered scale (2-10 levels) | `["level 0", "level 1", ...]` | `score` (expected level), `legend`, `probabilities` |
 
-Each answer carries probabilities: automate the confident ones and send the rest to a person. Documents up to 64k tokens.
+Each answer carries probabilities: automate the confident ones and send the rest to a person. Zuse 27B reads documents up to 8,192 tokens on 24 GB GPUs and up to 64k on 48 GB ml.g6e GPUs; on a 24 GB GPU a longer document gets a clear error. Zuse 9B reads up to 64k.
 This is the same request format as TypeSafe's Jev. The endpoint also accepts the OpenAI Decisions format (`input` plus a `questions` array).
 
 ## Support
