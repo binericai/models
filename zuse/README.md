@@ -10,7 +10,7 @@ the options you give it. It uses the same request format as TypeSafe's Jev.
 | Zuse 27B | 87.4 % | 115 | one 24 GB GPU |
 | Zuse 9B | 83.6 % | 83 | one 24 GB GPU, down to the smallest instances |
 
-Both are trained on 27 European languages. Documents up to 64k tokens.
+Both are trained on 27 European languages. Documents: Zuse 27B reads up to 8,192 tokens on a 24 GB GPU and up to 64k on a 48 GB ml.g6e GPU. Zuse 9B reads up to 64k.
 
 ## Where to get it
 
