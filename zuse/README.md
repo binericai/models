@@ -12,6 +12,10 @@ the options you give it. It uses the same request format as TypeSafe's Jev.
 
 Both are trained on 27 European languages. Documents: Zuse 27B reads up to 8,192 tokens on a 24 GB GPU and up to 64k on a 48 GB ml.g6e GPU. Zuse 9B reads up to 64k.
 
+## Paper
+
+[Zuse: A Decision Model for European Languages](https://arxiv.org/abs/2611.06238) (arXiv:2611.06238, November 2026; [PDF copy](paper/zuse.pdf)): how the models are built, results per language and task, and their limits.
+
 ## Where to get it
 
 - [AWS Marketplace](aws-marketplace/): runs in your AWS account on Amazon SageMaker with network isolation.
