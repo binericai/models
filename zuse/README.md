@@ -14,7 +14,7 @@ Both are trained on 27 European languages. Documents: Zuse 27B reads up to 8,192
 
 ## Paper
 
-[Zuse: A Decision Model for European Languages](paper/zuse.pdf) (PDF, November 2026): how the models are built, results per language and task, and their limits.
+[Zuse: A Decision Model for European Languages](https://arxiv.org/abs/2611.06238) (arXiv:2611.06238, November 2026; [PDF copy](paper/zuse.pdf)): how the models are built, results per language and task, and their limits.
 
 ## Where to get it
 
