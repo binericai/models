@@ -1,0 +1,5 @@
+{"move": "I play the Forest card to gather wood, then move my knight to C4.", "actions": {"gather": 0.92, "build": 0.07, "move": 0.95, "attack": 0.14, "trade": 0.08}, "found": ["gather", "move"], "card": ["Forest", 0.97], "tiles": {"move_tile": ["C4", 0.96]}}
+{"move": "I move my archer to D2.", "actions": {"gather": 0.04, "build": 0.03, "move": 0.94, "attack": 0.1, "trade": 0.03}, "found": ["move"], "card": ["none", 0.58], "tiles": {"move_tile": ["D2", 0.99]}}
+{"move": "Market card: trade two wood for one stone.", "actions": {"gather": 0.37, "build": 0.21, "move": 0.39, "attack": 0.19, "trade": 0.93}, "found": ["trade"], "card": ["Market", 0.89], "tiles": {}}
+{"move": "Quarry for stone, build a tower on B3 and attack D1 with my knight.", "actions": {"gather": 0.67, "build": 0.96, "move": 0.52, "attack": 0.97, "trade": 0.06}, "found": ["gather", "build", "move", "attack"], "card": ["Quarry", 0.95], "tiles": {"build_tile": ["B3", 0.98], "move_tile": ["D1", 0.46], "attack_tile": ["D1", 0.98]}}
+{"move": "I pass.", "actions": {"gather": 0.16, "build": 0.13, "move": 0.27, "attack": 0.14, "trade": 0.14}, "found": [], "card": ["none", 0.25], "tiles": {}}

@@ -19,4 +19,9 @@ Both are trained on 27 European languages. Documents: Zuse 27B reads up to 8,192
 - [Azure Marketplace](azure-marketplace/): coming.
 - Hosted API: [API documentation](https://bineric.com/zuse/docs).
 
+## Guides
+
+- [Asking good questions](https://bineric.com/platform/docs#zuse-asking), in the API documentation: question types, options, context, and texts that hold several things at once.
+- [Example: one sentence, several actions](guides/): a runnable example with recorded answers from both models.
+
 Support: support@bineric.com
