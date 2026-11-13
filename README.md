@@ -11,7 +11,7 @@ for the cloud marketplaces they are sold through. One folder per model, one subf
 
 | tool | what is there |
 |---|---|
-| [LiteLLM](integrations/litellm/) | Python SDK example and a proxy config for Bineric's chat models (Claude and GPT hosted in the EU, Borealis 2, Lynx) |
+| [LiteLLM](integrations/litellm/) | Python SDK example and a proxy config for Bineric's chat models: Bineric's own Lynx, Borealis 2, and Claude and GPT hosted in the EU |
 
 Support: support@bineric.com
 

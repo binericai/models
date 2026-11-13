@@ -9,7 +9,7 @@ import sys
 
 import litellm
 
-model = sys.argv[1] if len(sys.argv) > 1 else "claude-sonnet-5.5"
+model = sys.argv[1] if len(sys.argv) > 1 else "lynx-30b"
 
 response = litellm.completion(
     model=f"openai/{model}",
