@@ -1,0 +1,43 @@
+# LiteLLM proxy config for Bineric's API.
+# Run with: litellm --config config.yaml
+# Prices are per token, copied from GET https://api.bineric.com/v1/models (per million tokens there).
+
+model_list:
+  - model_name: claude-sonnet-5.5
+    litellm_params:
+      model: openai/claude-sonnet-5.5
+      api_base: https://api.bineric.com/v1
+      api_key: os.environ/BINERIC_API_KEY
+    model_info:
+      input_cost_per_token: 0.0000022
+      output_cost_per_token: 0.000011
+
+  - model_name: gpt-5.4
+    litellm_params:
+      model: openai/gpt-5.4
+      api_base: https://api.bineric.com/v1
+      api_key: os.environ/BINERIC_API_KEY
+    model_info:
+      input_cost_per_token: 0.00000275
+      output_cost_per_token: 0.0000165
+
+  - model_name: borealis-2
+    litellm_params:
+      model: openai/borealis-2
+      api_base: https://api.bineric.com/v1
+      api_key: os.environ/BINERIC_API_KEY
+    model_info:
+      input_cost_per_token: 0.000002
+      output_cost_per_token: 0.00001
+
+  - model_name: lynx-30b
+    litellm_params:
+      model: openai/lynx-30b
+      api_base: https://api.bineric.com/v1
+      api_key: os.environ/BINERIC_API_KEY
+    model_info:
+      input_cost_per_token: 0.000003
+      output_cost_per_token: 0.000015
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
