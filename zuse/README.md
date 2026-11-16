@@ -18,6 +18,8 @@ Both are trained on 27 European languages. Documents: Zuse 27B reads up to 8,192
   [Zuse 27B listing](https://aws.amazon.com/marketplace/pp/prodview-p4pgjmsbglf76)
 - [Azure Marketplace](azure-marketplace/): coming.
 - Hosted API: [API documentation](https://bineric.com/zuse/docs).
+  Runnable examples on the hosted API: [binericai/zuse-examples](https://github.com/binericai/zuse-examples)
+  (customer service decisions, with benchmarks against Claude Sonnet).
 
 ## Guides
 
